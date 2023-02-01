@@ -1,0 +1,32 @@
+---
+Computer Science:
+  Systems:
+  - code: CS111
+    title: Operating Systems Principles
+    year: Win '23
+  Artificial Intelligence:
+  - code: CS 224N
+    title: Natural Language Processing with Deep Learning
+    year: Win '23
+  - code: CS 238
+    title: Decision Making under Uncertainty
+    year: Win '23
+  - code: EE 277
+    title: Reinforcement Learning
+    year: Aut '22
+Mathematics:
+  Algebra:
+    - code: MATH 113
+      title: Linear Algebra and Matrix Theory
+      year: Spr '22
+    - code: MATH 120
+      title: Groups and Rings
+      year: Aut '21'
+    - code: MATH 51
+      title: Linear Algebra and Multivariate Calculus
+      year: Aut '21
+Misc:
+  Blockchain:
+    - code: EE 374
+      title: Blockchain Foundations
+      year: Spr '22
