@@ -11,8 +11,7 @@ nav_order: 2
 ## Research
 I wish to become an excellent scientist. I believe there's nothing more profound, not just by its nature but also its very implications, than unearthing insights about the world we live in.
 I want the world to have *everyday robots*, robust metal companions that augment our day-to-day activities, but also eliminate its annoyances. Therefore, I wish to discover as much about artificial
-general intelligence, and this is the science that I'm in love with. In particular, I am deeply interested in the intersection of **reinforcement learning** and **human-robotic interaction**. Research questions that I would
-have thought about include:
+general intelligence, and this is the science that I'm in love with. In particular, I am deeply interested in the intersection of **reinforcement learning** and **human-robotic interaction**. Research questions that I have thought about include:
 
 - *How can reinforcement learning empower multimodal robotic agents in everyday tasks such as pathfinding, manipulation, and vision?*
 - *How can we leverage game theory to get robots with different objectives to "get along" with one another?*

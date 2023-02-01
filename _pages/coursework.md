@@ -2,7 +2,7 @@
 layout: page
 title: coursework
 permalink: /coursework/
-display_categories: [Computer Science, Mathematics]
+display_categories: [Computer Science, Mathematics, Misc]
 horizontal: false
 nav: true
 ---
