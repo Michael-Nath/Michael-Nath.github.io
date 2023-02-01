@@ -26,7 +26,13 @@ Mathematics:
       title: Linear Algebra and Multivariate Calculus
       year: Aut '21
 Misc:
-  Blockchain:
+  Science:
     - code: EE 374
       title: Blockchain Foundations
       year: Spr '22
+    - code: CS 279
+      title: Computational Biology
+      year: Aut '21
+    - code: EE 124
+      title: Neuroelectrical Engineering
+      year: EE Win '22
