@@ -1,9 +1,12 @@
 ---
 Computer Science:
   Systems:
-  - code: CS111
+  - code: CS 111
     title: Operating Systems Principles
     year: Win '23
+  - code: CS 144
+    title: Introduction to Computer Networking
+    year: Spr '23
   Artificial Intelligence:
   - code: CS 224N
     title: Natural Language Processing with Deep Learning
@@ -14,6 +17,12 @@ Computer Science:
   - code: EE 277
     title: Reinforcement Learning
     year: Aut '22
+  - code: CS 224R
+    title: Deep Reinforcement Learning
+    year: Spr '23
+  - code: CS 231N
+    title: Deep Learning for Computer Vision
+    year: Spr '23
 Mathematics:
   Algebra:
     - code: MATH 113
