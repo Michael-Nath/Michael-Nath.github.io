@@ -429,6 +429,28 @@ footer.sticky-bottom {
     }
   }
 
+  .github-icon, .pdf-icon {
+    padding-right: 10px;
+  }
+  
+  .paper-icon {
+    color: var(--global-theme-color); /* black */
+  }
+  
+  .gh-icon {
+    color: var(--global-theme-color); /* dark gray */
+  }
+.tag {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.tags {
+  font-size: 0.9em;
+}
+  .projects-list {
+    list-style-type: none;
+  }
   .card {
     img {
       width: 100%;

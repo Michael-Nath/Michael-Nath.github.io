@@ -2,8 +2,8 @@ github_users:
   - Michael-Nath
 
 github_repos:
-  - Michael-Nath/Adversary
+  - Michael-Nath/MCTS
   - Michael-Nath/WorldView
   - Michael-Nath/RL
   - Michael-Nath/SciBowlHelper
-  - Michael-Nath/SimpleWorkouts
+  - Michael-Nath/FluidLab

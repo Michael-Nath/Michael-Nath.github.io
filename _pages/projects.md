@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: Highlight projects that I have worked on.
+nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [science, engineering] 
 horizontal: false
 ---
 
@@ -27,11 +27,11 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <ul class="projects-list">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
-  </div>
+  </ul>
   {%- endif -%}
   {% endfor %}
 
@@ -48,11 +48,11 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <ul class="projects-list">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
-  </div>
+  </ul>
   {%- endif -%}
 {%- endif -%}
 </div>
