@@ -7,6 +7,12 @@ Computer Science:
   - code: CS 144
     title: Introduction to Computer Networking
     year: Spr '23
+  - code: CS 149
+    title: Parallell Computing
+    year: Aut '23
+  - code: CS 229S
+    title: Systems for Machine Learning
+    year: Aut '23
   Artificial Intelligence:
   - code: CS 224N
     title: Natural Language Processing with Deep Learning
@@ -44,4 +50,4 @@ Misc:
       year: Aut '21
     - code: EE 124
       title: Neuroelectrical Engineering
-      year: EE Win '22
+      year: Win '22
