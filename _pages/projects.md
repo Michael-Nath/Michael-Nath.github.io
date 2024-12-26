@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Highlight projects that I have worked on.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [science, engineering] 
 horizontal: false

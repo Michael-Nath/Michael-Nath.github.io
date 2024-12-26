@@ -13,6 +13,13 @@ Computer Science:
   - code: CS 229S
     title: Systems for Machine Learning
     year: Aut '23
+  - code: CS 140E
+    title: Embedded Operating Systems
+    year: Win '24
+  - code: CS 143
+    title: Compilers
+    year: Spr '24 
+
   Artificial Intelligence:
   - code: CS 224N
     title: Natural Language Processing with Deep Learning
@@ -29,6 +36,7 @@ Computer Science:
   - code: CS 231N
     title: Deep Learning for Computer Vision
     year: Spr '23
+    
 Mathematics:
   Algebra:
     - code: MATH 113
