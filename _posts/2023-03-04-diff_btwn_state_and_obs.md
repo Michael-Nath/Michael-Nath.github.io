@@ -3,6 +3,7 @@ layout: post
 title: The difference between a state and an observation
 date: 2023-03-04
 description: How can a heated game of tic-tac-toe elucidate one of the most crucial distinctions in reinforcement learning?
+math: true
 
 _styles: >
   h1, h2, h3, h4 {

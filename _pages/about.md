@@ -1,28 +1,32 @@
 ---
-layout: about
-title: about
+layout: simple
+title: Michael Nath
 permalink: /
 subtitle: hacking science for the everyday person
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <b>Stanford, CA</b>
-    <br/>
-    <b>New York, NY</b>
-
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
 ---
 
-I want robots to work in the wild - like in jungles, the surface of Saturn's Titan, and my bathroom.
-Check out `interests` for more on that.
+My life's work involves collaborating with brilliant people everyday, building incredible technologies that propel humanity to wonderful, unimaginable realms. Everything I do plays a part in advancing this chief interest in our world.
 
-- Stanford CS, concentrated in systems & ai.
-- Working on edge inference at Stanford Hazy.
-- learning the piano (hoping to play some Pokémon battle music)
-- avid ping ponger
-- philosphical fiction enthusiast (Crime and Punishment favorite so far)
+I am currently an AI engineer & researcher at <span class="gold-bold">Jump Trading</span>, based out of my hometown of New York City. If you'd like to grab a coffee, please reach out!
+
+### Quick Facts
+
+- Proud <span class="gold-bold">Stuyvesant</span> & <span class="gold-bold">Stanford</span> alum
+- Concentrated in systems (BS) & artificial intelligence (MS).
+- Avid table tennis player (can find me practicing @ PingPod)
+- Love the cold (favorite place I've been to is <span class="frost-text">Lofoten, Norway</span>)
+
+## Writings
+
+<ul class="writing-list">
+  {% if site.posts and site.posts != empty %}
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date: "%B %Y" }}</span>
+      </li>
+    {% endfor %}
+  {% else %}
+    <li>No writings yet. Check back soon.</li>
+  {% endif %}
+</ul>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    {% if page.title %}{{ page.title | escape }}{% endif %}
+    {% if site.title %} · {{ site.title | escape }}{% endif %}
+  </title>
+  <link rel="stylesheet" href="{{ '/assets/css/simple.css' | relative_url }}">
+</head>
+<body>
+  <main class="page">
+    {% assign display_header = page.show_header %}
+    {% if display_header == nil %}
+      {% if page.layout == 'post' %}
+        {% assign display_header = false %}
+      {% else %}
+        {% assign display_header = true %}
+      {% endif %}
+    {% endif %}
+
+    {% if display_header %}
+      <header class="page__header">
+        {% if page.title %}
+          <h1 class="page__title">{{ page.title }}</h1>
+        {% endif %}
+        {% if page.subtitle %}
+          <p class="page__subtitle">{{ page.subtitle }}</p>
+        {% endif %}
+      </header>
+    {% endif %}
+    <div class="page__content">
+      {{ content }}
+    </div>
+    <footer class="page__footer">
+      <span>
+        &copy; {{ site.time | date: '%Y' }}
+        {% if site.author and site.author.name %}
+          {{ site.author.name }}
+        {% elsif site.title %}
+          {{ site.title }}
+        {% else %}
+          {{ site.first_name }} {{ site.last_name }}
+        {% endif %}
+      </span>
+    </footer>
+  </main>
+  {% if page.math or page.has_math or page.use_mathjax or site.math %}
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      };
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  {% endif %}
+</body>
+</html>

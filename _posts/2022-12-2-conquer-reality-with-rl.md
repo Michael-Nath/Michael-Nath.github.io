@@ -3,6 +3,7 @@ layout: post
 title: Conquering Reality - from a Reinforcement Learning perspective
 date: 2022-12-25
 description: How could a popular class of reinforcement learning agent teach us how to live life?
+math: true
 
 _styles: >
   h1, h2, h3 {

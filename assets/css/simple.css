@@ -1,0 +1,165 @@
+:root {
+  color-scheme: light;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #1c1c1c;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 24px 48px;
+}
+
+.page__header {
+  margin-bottom: 40px;
+}
+
+.page__title {
+  margin: 0 0 12px 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.page__subtitle {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #555555;
+}
+
+a {
+  color: #0047b3;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 71, 179, 0.3);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover,
+a:focus {
+  color: #002d73;
+  border-bottom-color: currentColor;
+}
+
+.gold-bold {
+  font-weight: 600;
+  color: #b8860b;
+}
+
+.frost-text {
+  font-weight: 600;
+  color: #1c7ed6;
+  text-shadow: 0 0 6px rgba(156, 222, 255, 0.6);
+}
+
+.page__content > *:first-child {
+  margin-top: 0;
+}
+
+.page__content > * {
+  margin-bottom: 24px;
+}
+
+.post {
+  display: block;
+}
+
+.post__header {
+  margin-bottom: 32px;
+}
+
+.post__title {
+  margin: 0 0 12px;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.post__meta {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #777777;
+}
+
+.post__taxonomy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+.post__taxonomy li a {
+  font-size: 0.85rem;
+  text-transform: lowercase;
+  border-bottom: none;
+  background-color: rgba(0, 71, 179, 0.08);
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.post__taxonomy li a:hover,
+.post__taxonomy li a:focus {
+  background-color: rgba(0, 71, 179, 0.14);
+}
+
+.post__content > *:first-child {
+  margin-top: 0;
+}
+
+.post__content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 24px 0;
+}
+
+.writing-list {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.writing-list li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.writing-list .date {
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+.page__footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e5e5;
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 48px 18px 32px;
+  }
+
+  .page__title {
+    font-size: 2rem;
+  }
+}
