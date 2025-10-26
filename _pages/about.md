@@ -3,6 +3,7 @@ layout: simple
 title: Michael Nath
 permalink: /
 subtitle: hacking science for the everyday person
+body_class: landing-page
 ---
 
 My life's work involves collaborating with brilliant people everyday, building incredible technologies that propel humanity to wonderful, unimaginable realms. Everything I do plays a part in advancing this chief interest in our world.
