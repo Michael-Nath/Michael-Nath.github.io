@@ -1,0 +1,50 @@
+# Bus routes I've actually ridden, each with a short story about the ride.
+#
+# id must match the "id" field in assets/data/bus-routes.geojson (e.g. M15,
+# Bx12-SBS, Q10) — matching ignores case, spaces, and dashes, so "bx12 sbs"
+# also works fine. story shows up on the /bus-map/ page when that route is
+# clicked — plain text, a couple sentences is plenty.
+#
+# Add an entry once you've ridden a route, commit, and redeploy — the page
+# picks it up on the next build. It's read-only on the published site; this
+# file is the only way to change it.
+#
+# Example:
+# - id: M15
+#   story: >
+#     Rode this one home from work on a rainy Tuesday — packed, but the
+#     driver waited an extra beat for a guy sprinting for the bus.
+
+- id: M1
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: M2
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: M3
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: M34-SBS
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: M15-SBS
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: Q102
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: Q104
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: Q66
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: Q100
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: Q72
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
+- id: Q18
+  story: >
+    Story coming soon — I'll write this one up after my next ride.
