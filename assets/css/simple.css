@@ -18,9 +18,25 @@ body {
 }
 
 .page {
+  position: relative;
   max-width: 720px;
   margin: 0 auto;
   padding: 64px 24px 48px;
+}
+
+.page__top-link {
+  position: absolute;
+  top: 26px;
+  right: 24px;
+  font-size: 0.8rem;
+  color: #6d6356;
+  border-bottom: 1px solid rgba(109, 99, 86, 0.35);
+}
+
+.page__top-link:hover,
+.page__top-link:focus {
+  color: #2b4631;
+  border-bottom-color: currentColor;
 }
 
 .page__header {

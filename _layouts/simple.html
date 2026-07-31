@@ -11,6 +11,9 @@
 </head>
 <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
   <main class="page">
+    {% if page.top_link_url %}
+      <a class="page__top-link" href="{{ page.top_link_url | relative_url }}">{{ page.top_link_text | default: page.top_link_url }}</a>
+    {% endif %}
     {% assign display_header = page.show_header %}
     {% if display_header == nil %}
       {% if page.layout == 'post' %}
